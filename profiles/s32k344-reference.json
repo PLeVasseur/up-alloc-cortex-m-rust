@@ -1,0 +1,21 @@
+{
+  "schema": "up-allocator-platform-reference-v1",
+  "profile": "s32k344-reference",
+  "target": "thumbv7em-none-eabihf",
+  "cpu": "Cortex-M7",
+  "board": "NXP S32K344 / MR-CANHUBK3",
+  "role": "automotive reference retained from 2026-11-12",
+  "rtos": "Zephyr v4.2.0, reference selection only",
+  "toolchain_spike": "1.100.0",
+  "ferrocene_status": "pending independent target/RTOS-fit research; no acceptance claim",
+  "shared_core_target_blocker": "unconditional AtomicU64 imports in current full core",
+  "source_prepared": true,
+  "source_review": "accepted for experimental packaging",
+  "host_compile": "PASS: Rust1.100 library and host example check against exact public SDK revision",
+  "target_compile": "not run",
+  "final_link": "not run",
+  "emulator": "not run",
+  "hardware": "not run",
+  "asil_acceptance": false,
+  "sdk_git_revision": "7cfd1b30fe674f7b93a74725c6d458beec5d041b"
+}
